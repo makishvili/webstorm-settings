@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="ya.surround">
+  <template name="E" value="&amp;laquo;$SELECTION$&amp;raquo;" description="Surround with «»" toReformat="true" toShortenFQNames="false">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
+

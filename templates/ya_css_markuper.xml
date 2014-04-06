@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="ya.css.markuper">
+  <template name="!" value="!important$END$" description="!important" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="/" value="/* $VALUE$ */ /**/$END$" description="inline comment" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="@" value="@import url($VALUE$);$END$" description="@import url(...)" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="\" value="/* $DESCR$ (begin) */ /**/&#10;    .$SELECTOR$&#10;    {&#10;        $END$&#10;    }&#10;/* $DESCR$ (end) */ /**/" description="block comment" toReformat="false" toShortenFQNames="false">
+    <variable name="DESCR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SELECTOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="b" value="border: 1px solid $VALUE$;$END$" description="border" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ba" value="background: $VALUE$;$END$" description="background" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="baaf" value="background-attachment: fixed;$END$" description="background-attachment: fixed" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="baas" value="background-attachment: scroll;$END$" description="background-attachment: scroll" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bac" value="background-color: $VALUE$;$END$" description="background-color" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bact" value="background-color: transparent;$END$" description="background-color: transparent" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bai" value="background-image: url($VALUE$);$END$" description="background-image" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bain" value="background-image: none;$END$" description="background-image: none" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ban" value="background: none;$END$" description="background: none" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bap" value="background-position: $VALUE$;$END$" description="background-position" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="barn" value="background-repeat: no-repeat;$END$" description="background-repeat: no-repeat" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="barr" value="background-repeat: repeat;$END$" description="background-repeat: repeat" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="barx" value="background-repeat: repeat-x;$END$" description="background-repeat: repeat-x" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bary" value="background-repeat: repeat-y;$END$" description="background-repeat: repeat-y" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bau" value="background: $COLOR$url($URL$) no-repeat$POSITION$;$END$" description="background: [color] url(...) no-repeat [position]" toReformat="false" toShortenFQNames="false">
+    <variable name="COLOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="POSITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bb" value="border-bottom: 1px solid $VALUE$;$END$" description="border-bottom" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bbc" value="border-bottom-color: $VALUE$;$END$" description="border-bottom-color" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bbs" value="border-bottom-style: $VALUE$;$END$" description="border-bottom-style" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bbw" value="border-bottom-width: $VALUE$;$END$" description="border-bottom-width" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bc" value="border-color: $VALUE$;$END$" description="border-color" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bcc" value="border-collapse: collapse;$END$" description="border-collapse: collapse" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bcs" value="border-collapse: separate;$END$" description="border-collapse: separate" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bl" value="border-left: 1px solid $VALUE$;$END$" description="border-left" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="blc" value="border-left-color: $VALUE$;$END$" description="border-left-color" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bls" value="border-left-style: $VALUE$;$END$" description="border-left-style" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="blw" value="border-left-width: $VALUE$;$END$" description="border-left-width" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bo" value="bottom: $VALUE$;$END$" description="bottom" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bor" value="border-radius: $VALUE$;&#10;/* Gecko (Firefox) */&#10;-moz-border-radius: $VALUE$;&#10;/* WebKit (Safari/Chrome) */&#10;-webkit-border-radius: $VALUE$;&#10;/* KHTML (Konquerer) */&#10;-khtml-border-radius: $VALUE$;$END$" description="border-radius" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bos" value="border-spacing: 0;$END$" description="border-spacing: 0" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="br" value="border-right: 1px solid $VALUE$;$END$" description="border-right" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="brc" value="border-right-color: $VALUE$;$END$" description="border-right-color" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="brs" value="border-right-style: $VALUE$;$END$" description="border-right-style" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="brw" value="border-right-width: $VALUE$;$END$" description="border-right-width" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bs" value="border-style: $VALUE$;$END$" description="border-style" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bt" value="border-top: 1px solid $VALUE$;$END$" description="border-top" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="btc" value="border-top-color: $VALUE$;$END$" description="border-top-color" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bts" value="border-top-style: $VALUE$;$END$" description="border-top-style" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="btw" value="border-top-width: $VALUE$;$END$" description="border-top-width" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bw" value="border-width: $VALUE$;$END$" description="border-width" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c" value="color: $VALUE$;$END$" description="color" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cb" value="clear: both;$END$" description="clear: both" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="clear: left;$END$" description="clear: left" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cn" value="clear: none;$END$" description="clear: none" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="co" value="content: &quot;$VALUE$&quot;;$END$" description="content: &quot;...&quot;" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="coi" value="counter-increment: $VALUE$;$END$" description="counter-increment" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cor" value="counter-reset: $VALUE$;$END$" description="counter-reset" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cr" value="clear: right;$END$" description="clear: right" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cu" value="cursor: $VALUE$;$END$" description="cursor" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cuh" value="cursor: hand;$END$" description="cursor: hand" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cup" value="cursor: pointer;$END$" description="cursor: pointer" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cut" value="cursor: text;$END$" description="cursor: text" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="d" value="border: 1px solid red !important;$END$" description="(debug) border: red" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="db" value="display: block;$END$" description="display: block" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="di" value="display: inline;$END$" description="display: inline" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dib" value="display: -moz-inline-box;&#10;display: inline-block;$END$" description="display: inline-block" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dit" value="display: inline-table;$END$" description="display: inline-table" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dn" value="display: none;$END$" description="display: none" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dt" value="display: table;$END$" description="display: table" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dtc" value="display: table-cell;$END$" description="display: table-cell" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dtr" value="display: table-row;$END$" description="display: table-row" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ech" value="empty-cells: hide;$END$" description="empty-cells: hide" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ecs" value="empty-cells: show;$END$" description="empty-cells: show" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="f" value="font: $VALUE$;$END$" description="font" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fa" value="font: 100% Arial, sans-serif;$END$" description="font: 100% Arial, sans-serif" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ff" value="font-family: $NAME$;$END$" description="font-family" toReformat="false" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ffa" value="font-family: Arial, sans-serif;$END$" description="font-family: Arial, sans-serif" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fi" value="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$URL$);$END$" description="filter:AlphaImageLoader(src=...);" toReformat="false" toShortenFQNames="false">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fic" value="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$URL$,sizingMethod=crop);$END$" description="filter:AlphaImageLoader(src=..., sizingMethod=crop);" toReformat="false" toShortenFQNames="false">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fis" value="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$URL$,sizingMethod=scale);$END$" description="filter:AlphaImageLoader(src=..., sizingMethod=scale);" toReformat="false" toShortenFQNames="false">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fl" value="float: left;$END$" description="float: left" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="float: none;$END$" description="float: none" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fo" value="filter: alpha(opacity=$VALUE$);$END$" description="filter: alpha(opacity=...)" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fr" value="float: right;$END$" description="float: right" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fs" value="font-size: $NAME$;$END$" description="font-size" toReformat="false" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fsi" value="font-style: italic;$END$" description="font-style: italic" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fsn" value="font-style: normal;$END$" description="font-style: normal" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fv" value="font: 80% Verdana, sans-serif;$END$" description="font: 80% Verdana, sans-serif" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fvn" value="font-variant: normal;$END$" description="font-variant: normal" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fvs" value="font-variant: small-caps;$END$" description="font-variant: small-caps" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fwb" value="font-weight: bold;$END$" description="font-weight: bold" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fwn" value="font-weight: 400;$END$" description="font-weight: normal" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="h" value="height: $VALUE$;$END$" description="height" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="h1" value="height: 100%;$END$" description="height: 100%" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="l" value="left: $VALUE$;$END$" description="left" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="les" value="letter-spacing: $VALUE$;$END$" description="letter-spacing" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="lh" value="line-height: $VALUE$;$END$" description="line-height" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ls" value="list-style: $VALUE$;$END$" description="list-style" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="m" value="margin: $VALUE$;$END$" description="margin" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mah" value="max-height: $VALUE$;$END$" description="max-height" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="maw" value="max-width: $VALUE$;$END$" description="max-width" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mb" value="margin-bottom: $VALUE$;$END$" description="margin-bottom" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mih" value="min-height: $VALUE$;$END$" description="min-height" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="miw" value="min-width: $VALUE$;$END$" description="min-width" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ml" value="margin-left: $VALUE$;$END$" description="margin-left" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mr" value="margin-right: $VALUE$;$END$" description="margin-right" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mt" value="margin-top: $VALUE$;$END$" description="margin-top" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="o" value="outline: 1px solid $VALUE$;$END$" description="outline: 1px solid &lt;color&gt;" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oa" value="overflow: auto;$END$" description="overflow: auto" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oh" value="overflow: hidden;$END$" description="overflow: hidden" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="oi" value="overflow: inherit;$END$" description="overflow: inherit" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="op" value="opacity: $VALUE$;$END$" description="opacity" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="os" value="overflow: scroll;$END$" description="overflow: scroll" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ov" value="overflow: visible;$END$" description="overflow: visible" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="p" value="padding: $VALUE$;$END$" description="padding" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pb" value="padding-bottom: $VALUE$;$END$" description="padding-bottom" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pl" value="padding-left: $VALUE$;$END$" description="padding-left" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="poa" value="position: absolute;$END$" description="position: absolute" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pof" value="position: fixed;$END$" description="position: fixed" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="por" value="position: relative;$END$" description="position: relative" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pos" value="position: static;$END$" description="position: static" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="padding-right: $VALUE$;$END$" description="padding-right" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="pt" value="padding-top: $VALUE$;$END$" description="padding-top" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="r" value="right: $VALUE$;$END$" description="right" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tac" value="text-align: center;$END$" description="text-align: center" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="taj" value="text-align: justify;$END$" description="text-align: justify" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tal" value="text-align: left;$END$" description="text-align: left" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tar" value="text-align: right;$END$" description="text-align: right" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tdn" value="text-decoration: none;$END$" description="text-decoration: none" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tdu" value="text-decoration: underline;$END$" description="text-decoration: underline" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ti" value="text-indent: $VALUE$;$END$" description="text-indent" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tla" value="table-layout: auto;$END$" description="table-layout: auto" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tlf" value="table-layout: fixed;$END$" description="table-layout: fixed" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="t" value="top: $VALUE$;$END$" description="top" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ts" value="text-shadow: $VALUE$;$END$" description="text-shadow" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ttc" value="text-transform: capitalize;$END$" description="text-transform: capitalize" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ttl" value="text-transform: lowercase;$END$" description="text-transform: lowercase" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ttn" value="text-transform: none;$END$" description="text-transform: none" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ttu" value="text-transform: uppercase;$END$" description="text-transform: uppercase" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vab" value="vertical-align: bottom;$END$" description="vertical-align: bottom" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vam" value="vertical-align: middle;$END$" description="vertical-align: middle" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vat" value="vertical-align: top;$END$" description="vertical-align: top" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vh" value="visibility: hidden;$END$" description="visibility: hidden" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vv" value="visibility: visible;$END$" description="visibility: visible" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w" value="width: $VALUE$;$END$" description="width" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="w1" value="width: 100%;$END$" description="width: 100%" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="wos" value="word-spacing: $VALUE$;$END$" description="word-spacing" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ws" value="white-space: $VALUE$;$END$" description="white-space" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="wsn" value="white-space: nowrap;$END$" description="white-space: nowrap" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="wsp" value="white-space: pre;$END$" description="white-space: pre" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="z" value="z-index: $VALUE$;$END$" description="z-index" toReformat="false" toShortenFQNames="false">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="z1" value="zoom: 1;$END$" description="zoom: 1" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bsb" value="box-sizing: border-box;&#10;-moz-box-sizing: border-box;&#10;-webkit-box-sizing: border-box;$END$" description="box-sizing: border-box" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bsc" value="box-sizing: content-box;&#10;-moz-box-sizing: content-box;&#10;-webkit-box-sizing: content-box;$END$" description="box-sizing: content-box" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="wa" value="width: auto;$END$" description="width: auto" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dli" value="display: list-item;$END$" description="display: list-item" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="lsn" value="list-style: none;$END$" description="list-style: none" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
+

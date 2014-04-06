@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code_scheme name="ya.html.markuper">
+  <option name="RIGHT_MARGIN" value="12000" />
+  <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+  <option name="HTML_ALIGN_TEXT" value="true" />
+  <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,body,table" />
+  <CssCodeStyleSettings>
+    <option name="BRACE_PLACEMENT" value="1" />
+  </CssCodeStyleSettings>
+  <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="0" />
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <ADDITIONAL_INDENT_OPTIONS fileType="sql">
+    <option name="INDENT_SIZE" value="2" />
+  </ADDITIONAL_INDENT_OPTIONS>
+  <codeStyleSettings language="JavaScript">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
+

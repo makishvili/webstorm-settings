@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JavaScript" injector-id="xml">
+      <display-name>x:js</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("js")).withNamespace(string().equalTo("http://www.yandex.ru/xscript"))]]></place>
+    </injection>
+    <injection language="Lua" injector-id="xml">
+      <display-name>x:lua</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("lua")).withNamespace(string().equalTo("http://www.yandex.ru/xscript"))]]></place>
+    </injection>
+  </component>
+</application>

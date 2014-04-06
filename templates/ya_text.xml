@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="ya.text">
+  <template name=":&lt;" value="&amp;#0171;" description="laquo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name=":-" value="&amp;#8212;" description="mdash" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name=":&gt;" value="&amp;#0187;" description="raquo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name=":_" value="&amp;#0160;" description="nbsp;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name=":_-" value="&amp;#0160;&amp;#8212;" description="nbsp mdash" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name=":&lt;&gt;" value="&amp;#0171;$VALUE$&amp;#0187;$END$" description="laquo $text raquo" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name=":c" value="&amp;#0169;" description="copy" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name=":..." value="&amp;#8230;" description="helip" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+

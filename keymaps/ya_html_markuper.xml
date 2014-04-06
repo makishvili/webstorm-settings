@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="ya.html.markuper" parent="Mac OS X">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta Z" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="meta Z" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="N" />
+  </action>
+  <action id="ChangesView.Rollback">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="R" />
+  </action>
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="C" />
+  </action>
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="meta W" />
+  </action>
+  <action id="CloseEditor">
+    <keyboard-shortcut first-keystroke="meta W" />
+  </action>
+  <action id="Compare.LastVersion">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="D" />
+  </action>
+  <action id="Cvs.Add">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="O" />
+  </action>
+  <action id="Cvs.Checkout">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="O" />
+  </action>
+  <action id="Editor Redo" />
+  <action id="Editor Undo" />
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="shift meta J" />
+  </action>
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="meta L" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift control W" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="meta F" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift meta F" />
+  </action>
+  <action id="GuiDesigner.ExpandSelection" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta R" />
+  </action>
+  <action id="SVNBar.Annotate">
+    <keyboard-shortcut first-keystroke="meta alt Z" second-keystroke="N" />
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="N" />
+  </action>
+  <action id="SVNBar.Commit">
+    <keyboard-shortcut first-keystroke="meta alt Z" second-keystroke="C" />
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="C" />
+  </action>
+  <action id="SVNBar.DiffWithSelectedVersion">
+    <keyboard-shortcut first-keystroke="meta alt Z" second-keystroke="D" />
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="D" />
+  </action>
+  <action id="StructuralSearchPlugin.StructuralSearchAction" />
+  <action id="Subversion.Add">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="A" />
+  </action>
+  <action id="Subversion.Clenaup">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="L" />
+  </action>
+  <action id="Subversion.Resolve">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="V" />
+  </action>
+  <action id="Subversion.SetProperty">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="S" />
+  </action>
+  <action id="Subversion.ShowProperties">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="E" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="Synchronize">
+    <keyboard-shortcut first-keystroke="meta F5" />
+  </action>
+  <action id="TestGestureAction" />
+  <action id="UpdateFiles">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="U" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift meta S" second-keystroke="H" />
+  </action>
+  <action id="ru.yandex.intellij.markuper.actions.CreateBlockAction">
+    <keyboard-shortcut first-keystroke="meta B" />
+  </action>
+  <action id="ru.yandex.intellij.markuper.actions.CreateBlockModifierAction">
+    <keyboard-shortcut first-keystroke="meta M" />
+  </action>
+  <action id="ru.yandex.intellij.markuper.actions.CreateBlockOptionalAction">
+    <keyboard-shortcut first-keystroke="meta E" />
+  </action>
+</keymap>
+
