@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<templateSet group="BEViS">
+<templateSet group="ya.bevis">
   <template name="bt" value="module.exports = function (bt) {&#10;    bt.match('$MATCH$', function (ctx) {&#10;        $END$&#10;    });&#10;};" description="bt.match" toReformat="false" toShortenFQNames="true">
     <variable name="MATCH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -19,21 +19,39 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DEPS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
   </template>
   <template name="mdefbl" value="modules.define(&#10;    '$NAME$',&#10;    [ 'inherit', 'y-block', $DEPS$ ],&#10;    function (provide, inherit, YBlock, $DEPS$) {&#10;&#10;    var $CLASS_NAME$ = inherit(YBlock, {&#10;        $END$&#10;    });&#10;&#10;    provide($CLASS_NAME$);&#10;});" description="module define with block" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DEPS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
   </template>
   <template name="view" value=".$SELECTOR$ {&#10;    $END$&#10;}" description="BEViS view" toReformat="false" toShortenFQNames="true">
     <variable name="SELECTOR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
   </template>
   <template name="skin" value="skin_$SKIN$() {&#10;    $END$&#10;}" description="BEViS skin" toReformat="false" toShortenFQNames="true">
     <variable name="SKIN" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
   </template>
 </templateSet>
 
