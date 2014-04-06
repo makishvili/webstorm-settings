@@ -21,6 +21,8 @@ rm -f ya_surround.xml
 ln -s $OUR/templates/ya_surround.xml
 rm -f ya_text.xml
 ln -s $OUR/templates/ya_text.xml
+rm -f ya_bevis.xml
+ln -s $OUR/templates/ya_bevis.xml
 
 mkdir -p $PREFS/options
 cd $PREFS/options
