@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<templateSet group="ya.bevis">
+<templateSet group="ya.bevis.markuper">
   <template name="bt" value="module.exports = function (bt) {&#10;    bt.match('$MATCH$', function (ctx) {&#10;        $END$&#10;    });&#10;};" description="bt.match" toReformat="true" toShortenFQNames="true">
     <variable name="MATCH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
