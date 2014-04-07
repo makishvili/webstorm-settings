@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e594cfcf-d91d-48a6-9a90-35ce7e2099fb" name="vega" url="http://vega.maps.yandex.ru">
+        <fileTransfer host="vega.maps.yandex.ru" port="22" privateKey="$USER_HOME$/.ssh/id_dsa" rootFolder="/home/makishvili/www" accessType="SFTP" username="makishvili" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions />
+    </sftpAdvancedGlobalOptions>
+  </component>
+</application>
+
